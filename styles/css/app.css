@@ -5797,6 +5797,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+nav {
+  font-family: 'Nunito', sans-serif; }
+
 .navbar-default {
   background: rgba(255, 255, 255, 0);
   border: none; }
@@ -5804,8 +5807,25 @@ button.close {
 a {
   color: white; }
 
-nav {
-  font-family: 'Nunito', sans-serif; }
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding: 15px 15px 15px 0px; }
+
+.fill {
+  fill: white; }
+
+.icon {
+  float: left;
+  height: 50px;
+  widows: 50px; }
+
+.icon svg {
+  height: 40px;
+  widows: 40px;
+  margin-top: 5px; }
 
 .op-header {
   background: #aaaaaa;
@@ -5816,11 +5836,5 @@ nav {
 
 .light-line {
   border: 0.5px solid white; }
-
-.navbar-brand {
-  text-transform: uppercase;
-  font-size: 28px;
-  font-weight: 400;
-  letter-spacing: 5px; }
 
 /*# sourceMappingURL=app.css.map */

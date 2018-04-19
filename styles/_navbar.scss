@@ -1,3 +1,7 @@
+nav{
+    font-family: 'Nunito', sans-serif;
+}
+
 .navbar-default{
     background: rgba(255, 255, 255, 0);
     border:none;
@@ -6,3 +10,12 @@
 a{
     color:$light-base;
 }
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding:15px 15px 15px 0px;
+}
+
