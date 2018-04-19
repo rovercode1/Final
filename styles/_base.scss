@@ -1,0 +1,26 @@
+// Headers
+// Used for transparent navbars
+
+nav{
+    font-family: 'Nunito', sans-serif;
+}
+
+.op-header{
+    background: rgb(170, 170, 170);
+    padding:10px 0px 100px 0px;
+}
+
+.container .light-line{
+    opacity: 0.2;
+}
+
+.light-line{
+    border:0.5px solid $light-line;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
