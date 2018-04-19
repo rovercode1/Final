@@ -5,26 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Final</title>
+    <link rel="stylesheet" href="styles/css/app.css">
+
+    <!--Fonts -->
+        <!--Navbar fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:600" rel="stylesheet">
 </head>
 <body>
-<header clas="col-lg-4">
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Hello!</a>
-            </li>
-            <li>
-                <a href="#">Hello!</a>
-            </li>
-            <li>
-                <a href="#">Hello!</a>
-            </li>
-        </ul>
+<header class="op-header">
+
+     <!-- Static navbar -->
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">final</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+        </ul>        
+    </div><!--/.nav-collapse -->
+    <div class="container">
+        <hr class="light-line">  
+    </div>
+  
     </nav>
     <section class="showcase">
         <h1>WELCOME</h1>
         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt neque incidunt voluptatem!</P>
     </section>
 </header>
+
+<!-- jQuery Version 1.11.1 -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<!--FontAwesome  -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
 </body>
 </html>
