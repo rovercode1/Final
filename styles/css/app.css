@@ -5875,14 +5875,9 @@ nav {
   widows: 40px;
   margin-top: 5px; }
 
-.iphone-section {
-  background: url("../../Img/blue-white.jpg"); }
-
-.iphone-section img {
-  margin: 0px 50%; }
-
 .image-re {
-  width: 50%; }
+  width: 50%;
+  height: 450px; }
 
 header.section-bg {
   background: url("../../Img/iphone2.jpg");
@@ -5942,6 +5937,18 @@ header.section-bg {
 div .input-group {
   margin-top: 60px; }
 
+.section-h3 {
+  font-size: 40px;
+  text-align: left;
+  margin: 20px 0px;
+  font-weight: 100;
+  line-height: 40px; }
+
+.section-p {
+  font-size: 16px;
+  text-align: left;
+  margin: 30px 0px; }
+
 .base-section {
   font-family: 'Open Sans', sans-serif;
   color: #454545;
@@ -5960,23 +5967,23 @@ div .input-group {
 .base-header h1 {
   font-size: 65px; }
 
-.base-section h3 {
-  font-size: 40px;
-  text-align: left;
-  margin: 40px 0px;
-  font-weight: 100;
-  line-height: 60px; }
-
-.base-section p {
-  font-size: 15px;
-  text-align: left;
-  margin: 40px 0px; }
-
 .base-line {
   border: 1px solid #333; }
 
 .image img {
   margin: 40px 0px; }
+
+.iphone-section {
+  font-family: 'Open Sans', sans-serif;
+  background: url("../../Img/blue-white.jpg");
+  padding: 100px 0px 0px 0px;
+  background-size: cover;
+  background-position: top;
+  color: #454545; }
+
+.iphone-section img {
+  height: inherit;
+  float: right; }
 
 .img {
   width: 100%;

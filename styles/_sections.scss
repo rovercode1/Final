@@ -1,3 +1,17 @@
+.section-h3{
+    font-size: 40px;
+    text-align: left;
+    margin: 20px 0px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.section-p{
+    font-size: 16px;
+    text-align: left;
+    margin:30px 0px; 
+}
+
 .base-section{
     font-family: 'Open Sans', sans-serif;
     color: $section-color;
@@ -20,19 +34,7 @@
     font-size: 65px;
 }
 
-.base-section h3{
-    font-size: 40px;
-    text-align: left;
-    margin:40px 0px; 
-    font-weight: 100;
-    line-height: 60px;
-}
 
-.base-section p{
-    font-size: 15px;
-    text-align: left;
-    margin:40px 0px; 
-}
 
 .base-line{
     border: 1px solid $main-color;
@@ -41,6 +43,25 @@
 .image img{
     margin:40px 0px;
 }
+
+.iphone-section{
+    font-family: 'Open Sans', sans-serif;
+    background:url("../../Img/blue-white.jpg");
+    padding: 100px 0px 0px 0px;
+    background-size: cover;
+    background-position: top;
+    color:$section-color;
+}
+
+.iphone-section img{
+    height: inherit;
+    float: right;
+}
+
+.iphone-section h3{
+
+}
+
 
 .img{
     width: 100%;
