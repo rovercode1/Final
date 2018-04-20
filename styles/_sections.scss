@@ -24,6 +24,7 @@
     font-size: 40px;
     text-align: left;
     margin:40px 0px; 
+    font-weight: 100;
 }
 
 .base-section p{
@@ -34,4 +35,13 @@
 
 .base-line{
     border: 1px solid $main-color;
+}
+
+.image img{
+    margin:40px 0px;
+}
+
+.img{
+    width: 100%;
+    max-width: 600px;
 }

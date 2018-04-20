@@ -5951,7 +5951,8 @@ div .input-group {
 .base-section h3 {
   font-size: 40px;
   text-align: left;
-  margin: 40px 0px; }
+  margin: 40px 0px;
+  font-weight: 100; }
 
 .base-section p {
   font-size: 15px;
@@ -5960,6 +5961,13 @@ div .input-group {
 
 .base-line {
   border: 1px solid #333; }
+
+.image img {
+  margin: 40px 0px; }
+
+.img {
+  width: 100%;
+  max-width: 600px; }
 
 .container-flex {
   width: 80%;
