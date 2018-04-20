@@ -1,0 +1,39 @@
+.base-section{
+    font-family: 'Open Sans', sans-serif;
+    color: $section-color;
+    padding: 80px 0px;
+}
+
+.line {
+    width:80%;
+    background-color:red;
+    border:1px solid $main-color;
+}
+
+.base-header{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+.base-header h1{
+    font-size: 65px;
+}
+
+.base-section h3{
+    font-size: 40px;
+    text-align: left;
+}
+
+.base-section h3 p{
+    margin:20px 0px; 
+}
+
+.base-section p{
+    font-size: 15px;
+    text-align: left;
+}
+
+.base-line{
+    border: 1px solid $main-color;
+}

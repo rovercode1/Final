@@ -5853,7 +5853,11 @@ nav {
   .navbar-default .navbar-nav li a {
     font-size: 13px;
     margin-top: 10px;
-    border-bottom: 1px solid rgba(139, 139, 139, 0.438); } }
+    border-bottom: 1px solid rgba(139, 139, 139, 0.438); }
+
+  .nav-box {
+    position: relative;
+    top: -200px; } }
 .fill {
   fill: white; }
 
@@ -5868,8 +5872,10 @@ nav {
   margin-top: 5px; }
 
 .op-header {
-  background: #aaaaaa;
-  padding: 10px 0px 100px 0px; }
+  background: url("../../img/iphone2.jpg");
+  padding: 10px 0px 100px 0px;
+  background-size: cover;
+  background-position: center; }
 
 .container .light-line {
   opacity: 0.2; }
@@ -5879,7 +5885,8 @@ nav {
 
 .showcase-inner {
   font-family: 'Raleway', sans-serif;
-  color: white; }
+  color: white;
+  padding-bottom: 80px; }
 
 .showcase-inner h1 {
   font-weight: 200;
@@ -5910,12 +5917,68 @@ nav {
 .svg-inline--fa {
   margin-right: 6px; }
 
+.input-group {
+  margin-top: 40px;
+  width: 70%;
+  margin: auto;
+  overflow: hidden; }
+
+.form-control {
+  height: 60px;
+  font-size: 18px; }
+
+div .input-group {
+  margin-top: 60px; }
+
+.base-section {
+  font-family: 'Open Sans', sans-serif;
+  color: #454545;
+  padding: 80px 0px; }
+
+.line {
+  width: 80%;
+  background-color: red;
+  border: 1px solid #333; }
+
+.base-header {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 70px; }
+
+.base-header h1 {
+  font-size: 65px; }
+
+.base-section h3 {
+  font-size: 40px;
+  text-align: left; }
+
+.base-section h3 p {
+  margin: 20px 0px; }
+
+.base-section p {
+  font-size: 15px;
+  text-align: left; }
+
+.base-line {
+  border: 1px solid #333; }
+
 .container-flex {
   width: 80%;
   display: flex;
   overflow: hidden;
   margin: auto;
   align-items: center; }
+
+.flex-box {
+  width: 100%;
+  /* overflow: hidden; */
+  align-items: center;
+  margin: 0;
+  justify-content: center; }
+
+.nav-box {
+  position: relative;
+  top: -40px; }
 
 .box-1 {
   flex: 1;
