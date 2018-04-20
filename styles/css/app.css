@@ -5950,14 +5950,13 @@ div .input-group {
 
 .base-section h3 {
   font-size: 40px;
-  text-align: left; }
-
-.base-section h3 p {
-  margin: 20px 0px; }
+  text-align: left;
+  margin: 40px 0px; }
 
 .base-section p {
   font-size: 15px;
-  text-align: left; }
+  text-align: left;
+  margin: 40px 0px; }
 
 .base-line {
   border: 1px solid #333; }
