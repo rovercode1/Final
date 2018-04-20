@@ -1,0 +1,41 @@
+.showcase-inner{
+    font-family: 'Raleway', sans-serif;
+    color:$light-base;
+
+}
+
+.showcase-inner h1{
+    font-weight: 200;
+    margin-bottom:15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+}
+
+.showcase-inner p{
+    font-size: 50px;
+    font-size: 18px;
+
+}
+
+.showcase .light-line{
+    width:500px;
+    margin-bottom:30px 
+} 
+
+.showcase .btn{
+    background: transparent;
+    border: 3px solid $light-base;
+    border-radius: 25px;
+    padding:10px 20px;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out
+}
+
+.showcase .btn:hover{
+    background:$light-base;
+    color:#333;
+}
+
+.svg-inline--fa{
+    margin-right:6px;
+}
