@@ -5800,20 +5800,60 @@ button.close {
 nav {
   font-family: 'Nunito', sans-serif; }
 
+.navbar-nav {
+  float: right; }
+
 .navbar-default {
   background: rgba(255, 255, 255, 0);
   border: none; }
 
-a {
-  color: white; }
+.navbar-default .navbar-nav li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 5px; }
 
-.navbar-brand {
+.navbar-default .navbar-nav li {
+  color: white;
+  padding: 0px 10px; }
+
+.navbar-default .navbar-nav li a:hover {
+  text-decoration: underline;
+  color: #e6e6e6; }
+
+.navbar-default .navbar-brand {
+  color: white;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 400;
   letter-spacing: 5px;
   padding: 15px 15px 15px 0px; }
 
+.navbar-default .navbar-brand:hover {
+  color: #4d4d4d;
+  text-decoration: underline; }
+
+.navbar-default .navbar-nav li .nav-btn {
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out; }
+
+.navbar-default .navbar-nav li .nav-btn:hover {
+  background: white;
+  color: #333;
+  text-decoration: none; }
+
+@media (max-width: 765px) {
+  .navbar-nav {
+    float: left; }
+
+  .navbar-default .navbar-nav li a {
+    font-size: 13px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.438); } }
 .fill {
   fill: white; }
 
@@ -5836,5 +5876,53 @@ a {
 
 .light-line {
   border: 0.5px solid white; }
+
+.showcase-inner {
+  font-family: 'Raleway', sans-serif;
+  color: white; }
+
+.showcase-inner h1 {
+  font-weight: 200;
+  margin-bottom: 15px;
+  font-size: 50px;
+  letter-spacing: -1px; }
+
+.showcase-inner p {
+  font-size: 50px;
+  font-size: 18px; }
+
+.showcase .light-line {
+  width: 500px;
+  margin-bottom: 30px; }
+
+.showcase .btn {
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out; }
+
+.showcase .btn:hover {
+  background: white;
+  color: #333; }
+
+.svg-inline--fa {
+  margin-right: 6px; }
+
+.container-flex {
+  width: 80%;
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+  align-items: center; }
+
+.box-1 {
+  flex: 1;
+  align-items: center; }
+
+.box-2 {
+  flex: 1;
+  align-items: center; }
 
 /*# sourceMappingURL=app.css.map */
