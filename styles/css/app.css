@@ -5875,8 +5875,14 @@ nav {
   widows: 40px;
   margin-top: 5px; }
 
-.grad-section {
-  background: url("../img/blue-white.jpg"); }
+.iphone-section {
+  background: url("../../Img/blue-white.jpg"); }
+
+.iphone-section img {
+  margin: 0px 50%; }
+
+.image-re {
+  width: 50%; }
 
 header.section-bg {
   background: url("../../Img/iphone2.jpg");
@@ -5975,6 +5981,9 @@ div .input-group {
 .img {
   width: 100%;
   max-width: 600px; }
+
+.info-section {
+  background: teal; }
 
 .section-bg {
   padding: 10px 0px 100px 0px;
