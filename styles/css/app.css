@@ -5964,12 +5964,17 @@ div .input-group {
   #input-btn {
     position: static;
     float: center; } }
+.section-bg {
+  padding: 10px 0px 100px 0px;
+  background-size: cover;
+  background-position: center; }
+
 .section-h3 {
   font-size: 40px;
   text-align: left;
-  margin: 20px 0px;
+  margin: 10px 0px;
   font-weight: 100;
-  line-height: 40px; }
+  line-height: 29px; }
 
 .section-p {
   font-size: 16px;
@@ -5980,11 +5985,6 @@ div .input-group {
   font-family: 'Open Sans', sans-serif;
   color: #454545;
   padding: 80px 0px; }
-
-.line {
-  width: 80%;
-  background-color: red;
-  border: 1px solid #333; }
 
 .base-header {
   text-align: center;
@@ -6018,6 +6018,7 @@ div .input-group {
 
 .iphone-section .icon {
   width: 70px;
+  float: left;
   height: 65px; }
 
 img.img {
@@ -6025,13 +6026,13 @@ img.img {
   max-width: 100%;
   height: auto; }
 
+.img-container {
+  float: left;
+  margin: auto;
+  width: 100%; }
+
 .info-section {
   background: teal; }
-
-.section-bg {
-  padding: 10px 0px 100px 0px;
-  background-size: cover;
-  background-position: center; }
 
 .container-flex {
   width: 80%;
@@ -6039,6 +6040,11 @@ img.img {
   overflow: hidden;
   margin: auto;
   align-items: center; }
+
+.line {
+  width: 80%;
+  background-color: red;
+  border: 1px solid #333; }
 
 .flex-box {
   width: 100%;

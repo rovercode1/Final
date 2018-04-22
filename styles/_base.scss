@@ -1,11 +1,4 @@
 // Headers
-// Used for transparent navbars
-
-.section-bg{
-    padding:10px 0px 100px 0px;
-    background-size:cover ;
-    background-position: center; 
-}
 
 .container-flex{
     width:80%;
@@ -13,6 +6,12 @@
     overflow: hidden;
     margin: auto;
     align-items: center;  
+}
+
+.line {
+	width:80%;
+	background-color:red;
+	border:1px solid $main-color;
 }
 
 .flex-box{

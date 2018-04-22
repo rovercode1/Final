@@ -1,82 +1,87 @@
+.section-bg{
+	padding:10px 0px 100px 0px;
+	background-size:cover ;
+	background-position: center; 
+}
+
 .section-h3{
-    font-size: 40px;
-    text-align: left;
-    margin: 20px 0px;
-    font-weight: 100;
-    line-height: 40px;
+	font-size: 40px;
+	text-align: left;
+	margin: 10px 0px;
+	font-weight: 100;
+	line-height: 29px;
 }
 
 .section-p{
-    font-size: 16px;
-    text-align: left;
-    margin:30px 0px; 
+	font-size: 16px;
+	text-align: left;
+	margin:30px 0px; 
 }
 
 .base-section{
-    font-family: 'Open Sans', sans-serif;
-    color: $section-color;
-    padding: 80px 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: $section-color;
+	padding: 80px 0px;
 }
 
-.line {
-    width:80%;
-    background-color:red;
-    border:1px solid $main-color;
-}
 
 .base-header{
-    text-align: center;
-    font-size: 70px;
-    margin-bottom: 70px;
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 70px;
 }
 
 .base-header h1{
-    font-size: 65px;
+	font-size: 65px;
 }
 
 
 .base-line{
-    border: 1px solid $main-color;
+	border: 1px solid $main-color;
 }
 
 .image img.img {
-    max-width: 100%;
-    width: 500px;
+	max-width: 100%;
+	width: 500px;
 }
 
 .image img{
-    margin:40px 0px;
+	margin:40px 0px;
 }
 
 .iphone-section{
-    font-family: 'Open Sans', sans-serif;
-    background:url("../../Img/blue-white.jpg");
-    padding: 100px 0px 0px 0px;
-    background-size: cover;
-    background-position: top;
-    color:$section-color;
+	font-family: 'Open Sans', sans-serif;
+	background:url("../../Img/blue-white.jpg");
+	padding: 100px 0px 0px 0px;
+	background-size: cover;
+	background-position: top;
+	color:$section-color;
 }
 
 .iphone-section img{
-    height: inherit;
-    float: right;
+	height: inherit;
+	float: right;
 }
 
 .iphone-section .icon{
-    width: 70px;
-    height: 65px;
+	width: 70px;
+	float: left;
+	height: 65px;
 }
 
-
-
-
 img.img{
-    width: 300px;
-    max-width: 100%;
-    height: auto;
+	width: 300px;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-container {
+	float: left;
+	margin: auto;
+	width: 100%;
 }
 
 .info-section{
-    background: teal;
+	background: teal;
 }
 
