@@ -35,7 +35,6 @@
 }
 
 
-
 .base-line{
     border: 1px solid $main-color;
 }
@@ -58,8 +57,10 @@
     float: right;
 }
 
-.iphone-section h3{
-
+.iphone-section .icon{
+    float: none;
+    width: 50px;
+    height:35px;
 }
 
 
