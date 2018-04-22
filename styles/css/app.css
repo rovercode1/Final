@@ -5800,6 +5800,10 @@ button.close {
 nav {
   font-family: 'Nunito', sans-serif; }
 
+.nav-box {
+  position: relative;
+  top: -40px; }
+
 .navbar-nav {
   float: right; }
 
@@ -6042,10 +6046,6 @@ img.img {
   align-items: center;
   margin: 0;
   justify-content: center; }
-
-.nav-box {
-  position: relative;
-  top: -40px; }
 
 .box-1 {
   flex: 1;
