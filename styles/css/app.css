@@ -6029,7 +6029,8 @@ img.img {
 .img-container {
   float: left;
   margin: auto;
-  width: 100%; }
+  width: 100%;
+  padding: 20px 0px; }
 
 .info-section {
   background: teal; }
