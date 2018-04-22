@@ -6034,6 +6034,11 @@ img.img {
 .info-section {
   background: teal; }
 
+.wrap {
+  width: inherit;
+  overflow: hidden;
+  margin: auto; }
+
 .container-flex {
   width: 80%;
   display: flex;
