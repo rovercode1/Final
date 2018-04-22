@@ -57,15 +57,29 @@ div .input-group {
 }
 
 #input-btn {
+    background: url("/Img/email-button.png");
+    background-size: cover;
     width: 50px;
     height:50px;
     position: absolute;
-    top: 15px;
+    top: 5px;
     right: 15px;
     z-index: 2;
     border-radius:10px;
     border:0;
     box-shadow: none; 
     padding:0;
+    transition-timing-function: ease-in-out;
+    transition: 0.4s;
 }
 
+#input-btn:hover{
+    opacity: 0.6;
+}
+
+@media(max-width:622px){
+    #input-btn{
+        position: static;
+        float: center;
+    }   
+}
