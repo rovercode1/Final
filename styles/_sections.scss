@@ -89,12 +89,14 @@ img.img{
 }
 
 .web-section .image img.img {
-    margin: 0;
+	margin: 0;
+	width: inherit;
 }
 
 .web-section .jumbotron {
     padding: 7px;
-    background: #9bbec8;
+	background: #0000001a;
+	margin-top:100px;
 }
 
 .web-section .img-container img.icon{
