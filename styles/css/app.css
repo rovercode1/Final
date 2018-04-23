@@ -6088,7 +6088,9 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 .loading {
-  background: url("../../Img/card.jpg") no-repeat center center; }
+  background: url("../../Img/loading.gif") no-repeat;
+  height: 900px;
+  background-position: center; }
 
 .page-load {
   opacity: 0; }
@@ -6115,7 +6117,6 @@ body {
 
 .flex-box {
   width: 100%;
-  /* overflow: hidden; */
   align-items: center;
   margin: 0;
   justify-content: center; }
