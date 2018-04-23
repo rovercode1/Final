@@ -6033,7 +6033,8 @@ img.img {
 .web-section {
   background: url("../../Img/section-cog-background.png");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .web-section .image img.img {
   margin: 0;
@@ -6060,12 +6061,18 @@ img.img {
   border: 0.5px solid;
   opacity: 0.2; }
 
+.final-section {
+  background: url("../../Img/blue-white.jpg");
+  padding: 100px 0px 0px 0px;
+  background-size: cover;
+  background-position: center; }
+
 footer {
   color: #424242; }
 
 .s-icon img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin: 0px 10px;
   cursor: pointer;
   transition-timing-function: linear;
