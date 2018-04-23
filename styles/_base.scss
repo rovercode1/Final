@@ -4,20 +4,6 @@ body{
     
 }
 
-.loading{
-    background: url("../../Img/loading.gif")no-repeat;
-    height: 900px;
-    background-position: center; 
-}
-
-.page-load{
-    opacity: 0;
-}
-
-.loaded .page-load{
-    opacity: 1;
-}
-
 .wrap{
     width: inherit;
     overflow: hidden;

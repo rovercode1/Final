@@ -6084,6 +6084,21 @@ footer {
 .s-icon img:hover {
   opacity: 0.4; }
 
+.loading {
+  background: url("../../Img/loading.gif") no-repeat;
+  height: 900px;
+  background-position: center; }
+
+.page-load {
+  opacity: 0; }
+
+.loaded {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  opacity: 1; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
@@ -6095,7 +6110,11 @@ body {
 .page-load {
   opacity: 0; }
 
-.loaded .page-load {
+.loaded {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
   opacity: 1; }
 
 .wrap {

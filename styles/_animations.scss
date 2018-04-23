@@ -1,0 +1,17 @@
+.loading{
+    background: url("../../Img/loading.gif")no-repeat;
+    height: 900px;
+    background-position: center; 
+}
+
+.page-load{
+    opacity: 0;
+}
+
+.loaded{
+    -webkit-transition:opacity 1s;
+    -moz-transition:opacity 1s;
+    -o-transition:opacity 1s;
+    transition: opacity 1s;
+    opacity: 1;
+}
