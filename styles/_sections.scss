@@ -117,3 +117,21 @@ img.img{
 	border: 0.5px solid;
 	opacity: 0.2;
 }
+
+footer{
+	color: rgb(66, 66, 66);
+}
+
+
+.s-icon img{
+	width: 50px;
+	height:50px;
+	margin: 0px 10px;
+	cursor: pointer;
+	transition-timing-function: linear;
+	transition: 0.5s;
+}
+
+.s-icon img:hover{
+	opacity: 0.4;
+}
