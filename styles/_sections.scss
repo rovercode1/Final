@@ -1,3 +1,4 @@
+
 .section-bg{
 	padding:10px 0px 100px 0px;
 	background-size:cover ;
@@ -9,7 +10,6 @@
 	text-align: left;
 	margin: 10px 0px;
 	font-weight: 100;
-	line-height: 29px;
 }
 
 .section-p{
@@ -19,7 +19,6 @@
 }
 
 .base-section{
-	font-family: 'Open Sans', sans-serif;
 	color: $section-color;
 	padding: 80px 0px;
 }
@@ -63,10 +62,10 @@
 	float: right;
 }
 
-.iphone-section .icon{
-	width: 70px;
-	float: left;
-	height: 65px;
+.iphone-section .icon {
+    width: 100px;
+    float: left;
+    height: 100px;
 }
 
 img.img{
@@ -100,6 +99,16 @@ img.img{
 }
 
 .web-section .img-container img.icon{
-	height: 70px;
+	height: 100px;
 }
 
+.laptop-section img.img {
+    width: 1000px;
+    max-width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+
+.laptop-section .img-container img.icon {
+    height: 100px;
+}

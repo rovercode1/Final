@@ -5973,8 +5973,7 @@ div .input-group {
   font-size: 40px;
   text-align: left;
   margin: 10px 0px;
-  font-weight: 100;
-  line-height: 29px; }
+  font-weight: 100; }
 
 .section-p {
   font-size: 16px;
@@ -5982,7 +5981,6 @@ div .input-group {
   margin: 30px 0px; }
 
 .base-section {
-  font-family: 'Open Sans', sans-serif;
   color: #454545;
   padding: 80px 0px; }
 
@@ -6017,9 +6015,9 @@ div .input-group {
   float: right; }
 
 .iphone-section .icon {
-  width: 70px;
+  width: 100px;
   float: left;
-  height: 65px; }
+  height: 100px; }
 
 img.img {
   width: 300px;
@@ -6047,7 +6045,19 @@ img.img {
   margin-top: 100px; }
 
 .web-section .img-container img.icon {
-  height: 70px; }
+  height: 100px; }
+
+.laptop-section img.img {
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 100px; }
+
+.laptop-section .img-container img.icon {
+  height: 100px; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
 
 .wrap {
   width: inherit;
