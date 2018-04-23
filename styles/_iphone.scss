@@ -1,0 +1,19 @@
+.iphone-section{
+	font-family: 'Open Sans', sans-serif;
+	background:url("../../Img/blue-white.jpg");
+	padding: 100px 0px 0px 0px;
+	background-size: cover;
+	background-position: top;
+	color:$section-color;
+}
+
+.iphone-section img{
+	height: inherit;
+	float: right;
+}
+
+.iphone-section .icon {
+    width: 100px;
+    float: left;
+    height: 100px;
+}

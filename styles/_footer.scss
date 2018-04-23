@@ -1,0 +1,16 @@
+footer{
+	color: rgb(66, 66, 66);
+}
+
+.s-icon img{
+	width: 30px;
+	height:30px;
+	margin: 0px 10px;
+	cursor: pointer;
+	transition-timing-function: linear;
+	transition: 0.5s;
+}
+
+.s-icon img:hover{
+	opacity: 0.4;
+}
