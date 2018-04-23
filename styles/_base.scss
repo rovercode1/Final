@@ -3,6 +3,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.loading{
+    background: url("../../Img/card.jpg")no-repeat center center;
+}
+
+.page-load{
+    opacity: 0;
+}
+
+.loaded .page-load{
+    opacity: 1;
+}
+
 .wrap{
     width: inherit;
     overflow: hidden;
