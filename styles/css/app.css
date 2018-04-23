@@ -6013,26 +6013,6 @@ img.img {
   width: 100%;
   padding: 20px 0px; }
 
-.final-section {
-  background: url("../../Img/blue-white.jpg");
-  padding: 100px 0px 0px 0px;
-  background-size: cover;
-  background-position: center; }
-
-footer {
-  color: #424242; }
-
-.s-icon img {
-  width: 30px;
-  height: 30px;
-  margin: 0px 10px;
-  cursor: pointer;
-  transition-timing-function: linear;
-  transition: 0.5s; }
-
-.s-icon img:hover {
-  opacity: 0.4; }
-
 .iphone-section {
   font-family: 'Open Sans', sans-serif;
   background: url("../../Img/blue-white.jpg");
@@ -6082,10 +6062,13 @@ footer {
   opacity: 0.2; }
 
 .final-section {
+  text-align: center;
   background: url("../../Img/blue-white.jpg");
-  padding: 100px 0px 0px 0px;
   background-size: cover;
   background-position: center; }
+
+.final-section .section-h3, .final-section .section-p {
+  text-align: center; }
 
 footer {
   color: #424242; }
