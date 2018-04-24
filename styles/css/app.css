@@ -6099,9 +6099,12 @@ footer {
   transition: opacity 1s;
   opacity: 1; }
 
+.none {
+  opacity: 0; }
+
 .show {
   animation-name: showcaseShow;
-  animation-duration: 1.9s; }
+  animation-duration: 1s; }
 
 @keyframes showcaseShow {
   0% {
