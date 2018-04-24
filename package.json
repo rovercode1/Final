@@ -4,7 +4,8 @@
   "description": "Making a website from design",
   "main": "index.js",
   "dependencies": {
-    "bower": "^1.8.4"
+    "bower": "^1.8.4",
+    "scrollreveal": "^3.4.0"
   },
   "devDependencies": {},
   "scripts": {
