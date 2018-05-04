@@ -5894,25 +5894,9 @@ header.section-bg {
 .light-line {
   border: 0.5px solid white; }
 
-.showcase-inner {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  padding-bottom: 80px; }
-
-.showcase-inner h1 {
-  font-weight: 200;
-  margin-bottom: 15px;
-  font-size: 50px;
-  letter-spacing: -1px; }
-
-.showcase-inner p {
-  font-size: 50px;
-  font-size: 18px; }
-
 .showcase .light-line {
   width: 500px;
   margin-bottom: 30px; }
-
 .showcase .btn {
   background: transparent;
   border: 3px solid white;
@@ -5920,45 +5904,49 @@ header.section-bg {
   padding: 10px 20px;
   transition: 0.2s;
   transition-timing-function: ease-in-out; }
-
 .showcase .btn:hover {
   background: white;
   color: #333; }
 
-.svg-inline--fa {
-  margin-right: 6px; }
+.showcase-inner {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding-bottom: 80px; }
+  .showcase-inner h1 {
+    font-weight: 200;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px; }
+  .showcase-inner p {
+    font-size: 50px;
+    font-size: 18px; }
 
 .input-group {
   margin-top: 40px;
   width: 70%;
   margin: auto;
-  overflow: hidden; }
-
-.form-control {
-  height: 60px;
-  font-size: 18px; }
-
-div .input-group {
+  overflow: hidden;
   margin-top: 60px; }
-
-#input-btn {
-  background: url("/Img/email-button.png");
-  background-size: cover;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  z-index: 2;
-  border-radius: 10px;
-  border: 0;
-  box-shadow: none;
-  padding: 0;
-  transition-timing-function: ease-in-out;
-  transition: 0.4s; }
-
-#input-btn:hover {
-  opacity: 0.6; }
+  .input-group .form-control {
+    height: 60px;
+    font-size: 18px; }
+  .input-group #input-btn {
+    background: url("/Img/email-button.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 2;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    transition-timing-function: ease-in-out;
+    transition: 0.4s; }
+  .input-group #input-btn:hover {
+    opacity: 0.6; }
 
 @media (max-width: 622px) {
   #input-btn {
