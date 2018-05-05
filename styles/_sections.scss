@@ -12,11 +12,11 @@
 	font-weight: 100;
 }
 
-.section-p{
+.tag{
 	font-size: 16px;
-	text-align: left;
 	margin:30px 0px; 
 }
+
 
 .base-section{
 	color: $section-color;
@@ -30,16 +30,12 @@
 	margin-bottom: 70px;
 }
 
-.base-header h1{
-	font-size: 65px;
-}
-
 
 .base-line{
 	border: 1px solid $main-color;
 }
 
-.image img.img {
+.image .section-img {
 	max-width: 100%;
 	width: 500px;
 }
@@ -49,8 +45,7 @@
 }
 
 
-img.img{
-	width: 300px;
+img.section-img{
 	max-width: 100%;
 	height: auto;
 }

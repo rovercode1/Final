@@ -28,12 +28,12 @@ body{
 		flex:2;
 		align-items: center;
 	}
-	.div-center{
-		align-items: center;
-		justify-content: center;
-		display:flex;
-		width: inherit;
-		margin: auto;
-		overflow: hidden;
-	}
+}
+.div-center{
+	align-items: center;
+	justify-content: center;
+	display:flex;
+	width: inherit;
+	margin: auto;
+	overflow: hidden;
 }

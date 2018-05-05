@@ -5963,9 +5963,8 @@ header.section-bg {
   margin: 10px 0px;
   font-weight: 100; }
 
-.section-p {
+.tag {
   font-size: 16px;
-  text-align: left;
   margin: 30px 0px; }
 
 .base-section {
@@ -5977,21 +5976,17 @@ header.section-bg {
   font-size: 70px;
   margin-bottom: 70px; }
 
-.base-header h1 {
-  font-size: 65px; }
-
 .base-line {
   border: 1px solid #333; }
 
-.image img.img {
+.image .section-img {
   max-width: 100%;
   width: 500px; }
 
 .image img {
   margin: 40px 0px; }
 
-img.img {
-  width: 300px;
+img.section-img {
   max-width: 100%;
   height: auto; }
 
@@ -6023,15 +6018,20 @@ img.img {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+  .web-section .image .section-img {
+    max-width: 100%;
+    width: 500px; }
 
-.web-section .image img.img {
+.web-section .image .section-img {
   margin: 0;
   width: inherit; }
 
 .web-section .jumbotron {
   padding: 7px;
   background: #0000001a;
-  margin-top: 100px; }
+  margin-top: 100px;
+  max-width: 500px;
+  padding: 10px; }
 
 .web-section .img-container img.icon {
   height: 100px; }
@@ -6097,12 +6097,13 @@ body {
   .container-flex .box-2 {
     flex: 2;
     align-items: center; }
-  .container-flex .div-center {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: inherit;
-    margin: auto;
-    overflow: hidden; }
+
+.div-center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: inherit;
+  margin: auto;
+  overflow: hidden; }
 
 /*# sourceMappingURL=app.css.map */

@@ -3,9 +3,13 @@
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	.image .section-img {
+    max-width: 100%;
+    width: 500px;
+}
 }
 
-.web-section .image img.img {
+.web-section .image .section-img {
 	margin: 0;
 	width: inherit;
 }
@@ -14,6 +18,8 @@
   padding: 7px;
 	background: #0000001a;
 	margin-top:100px;
+	max-width: 500px;
+	padding: 10px;
 }
 
 .web-section .img-container img.icon{
